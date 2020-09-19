@@ -1,0 +1,43 @@
+.footer{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    .footer-width{
+        width: 65%;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .text-area{
+            width: 50%;
+            p{
+                color: #6e6e6e;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 15px;
+                line-height: 2;
+                font-weight: 400;
+            }
+            a{
+                cursor: pointer;
+                text-decoration: underline;
+                text-decoration-color: #ffa07f;
+                color: white;
+                a:hover{
+                    background-color:#ffa07f;
+                }
+            }
+        }
+        .icons-area{
+            color: white;
+            justify-content: flex-end;
+            text-align: right;
+            text-align: center;
+            width: 50%;
+            a{
+                color: white;
+                cursor: pointer;
+                padding-left: 36px;
+            }
+        }
+    }
+}

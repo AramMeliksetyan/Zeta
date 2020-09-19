@@ -1,0 +1,17 @@
+.progress-wrapper{
+    width: 50%;
+    padding-right: 35px;
+    .text-area{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        p{
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 0.3rem;
+            margin-top: 18px;
+            color: #FFFFFF;
+            font-size: 11px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.lets-work{
+    background-image: url('/images/first-slideshow/contact_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 90%;
+    margin: 0 auto;
+    .section-title{
+        letter-spacing: 0.2em;
+        font-size: 30px;
+        color: white;
+        padding-bottom: 20px;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .text-area{
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        p{
+            font-size: 16px;
+            line-height: 24px;
+            color: white;
+        }
+    }
+    .btn-area{
+        text-align: center;
+        padding-top: 70px;
+        button{
+            letter-spacing: 6.7px;
+            font-family: 'Open Sans', sans-serif;
+            background: orangered;
+            padding: 25px 30px;
+            border: 1px solid orangered;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.departments{
+    width: 95%;
+    margin: 0 auto;
+    .departments-conponents{
+        display: flex;
+        .img-area{
+            width: 33.3%;
+            .text-area{
+                width: 65%;
+                margin: 0 auto;
+                padding-top: 150px;
+                .title{
+                    font-size: 24px;
+                    letter-spacing: 0.2em;
+                    margin-bottom: 27px;
+                    text-align: center;
+                    color: rgb(255, 255, 255);
+                }
+                .text{
+                    font-size: 1rem;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    color: rgb(255, 255, 255);
+                    text-align: left;
+                }
+            }
+            .departments-button{
+                text-align: center;
+                padding-top: 90px;
+                padding-bottom: 70px;
+                    button{
+                        letter-spacing: 6.7px;
+                        font-family: 'Open Sans', sans-serif;
+                        background: orangered;
+                        padding: 25px 30px;
+                        border: 1px solid white;
+                        color: white;
+                    }
+                }
+        }
+        
+    }
+}

@@ -1,0 +1,31 @@
+.prog-bars-and-accord{
+    width: 70%;
+    margin: 0 auto;
+    .title{
+        padding-top: 120px;
+        padding-bottom: 50px;
+        letter-spacing: 0.2em;
+        color: #282828;
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .main-div{
+        display: flex;
+        .progress-wrapper{
+            width: 50%;
+            .text-area{
+                p{
+                    color: black;
+                }
+            }
+        }
+        .accordions{
+            width: 50%;
+            .item{
+                padding-bottom: 25px;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.main-background{
+    background-image: url('/images/first-slideshow/main_slider_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin-top: 80px;
+    width: 95%;
+    margin: 0 auto;
+    .text-area{
+        padding-top: 150px;
+        width: 70%;
+        margin: 0 auto;
+        .title{
+            font-weight: 300;
+            color: rgb(255, 255, 255);
+            margin-bottom: 2px;
+            font-size: 48px;
+        }
+        .paragraph{
+            font-size: 12px;
+            font-weight: 600;
+            color: rgb(255, 255, 255);
+            letter-spacing: 1em;
+            text-transform: uppercase;
+            padding-left: 3px;
+        }
+    }
+}

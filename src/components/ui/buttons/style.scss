@@ -1,0 +1,46 @@
+.buttons{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 70px;
+    .buttons-title{
+        letter-spacing: 0.2em;
+        color: #282828;
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .links{
+        padding-top: 50px;
+        display: flex;
+        .first{
+            letter-spacing: 6.7px;
+            font-family: 'Open Sans', sans-serif;
+            background: orangered;
+            padding: 25px 25px;
+            border: 1px white solid;
+            color: white;
+            margin-right: 15px;
+            font-size: 11px;
+        }
+        .second{
+            letter-spacing: 6.7px;
+            font-family: 'Open Sans', sans-serif;
+            background: white;
+            padding: 25px 25px;
+            border: 1px orangered solid;
+            color: orangered;
+            margin-right: 15px;
+            font-size: 11px;
+        }
+        .third{
+            letter-spacing: 6.7px;
+            font-family: 'Open Sans', sans-serif;
+            background: black;
+            padding: 25px 25px;
+            border: 1px black solid;
+            color: white;
+            font-size: 11px;
+        }
+    }
+}

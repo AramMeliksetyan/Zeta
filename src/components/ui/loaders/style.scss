@@ -1,0 +1,22 @@
+.loaders{
+    width: 70%;
+    margin: 0 auto;
+    .loaders-div{
+        display: flex;
+        justify-content: space-between;
+        .progress-bar{
+            width: 300px;
+            .progress-bar-area{
+                width: 25%;
+            }
+        }
+    }
+}
+.loaders.circle-loaders-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .progress-bar{
+        width: 25%;
+    }
+}

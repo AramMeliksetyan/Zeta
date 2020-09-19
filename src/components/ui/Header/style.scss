@@ -1,0 +1,49 @@
+header{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 4px 2px #0000004d;
+    .header-inner{   
+        width: 100%;   
+        display: flex;   
+        padding: 30px 40px;
+        transition: 0.5s;
+        .logo {
+            width:20% ;
+            display: flex;
+            cursor: pointer;
+            a{
+                font-size: 20px;
+                color: black;
+            
+            } 
+        }
+        .main-nav{
+            display: flex;
+            width: 80%;
+            text-align: right;
+            justify-content: flex-end;
+            margin: 0 auto;
+            .header-right{
+                display: flex;
+                list-style-type: none;
+                li{
+                    padding-left: 25px;
+                    a{
+                        font-size: 12px;
+                        letter-spacing: 3.5px ;
+                        padding: 36px 10px;
+                        font-family: 'Open Sans', sans-serif; 
+                        color: black;
+                    }
+                    a:hover{
+                        background: orangered;
+                    } 
+                 }
+            }
+        }
+    }    
+}

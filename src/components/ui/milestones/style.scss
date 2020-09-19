@@ -1,0 +1,44 @@
+.milestones{
+    width: 70%;
+    margin: 0 auto;
+    .milestones-title{
+        padding-bottom: 50px;
+        letter-spacing: 0.2em;
+        color: #282828;
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: bold;
+        padding-top: 50px;
+    }
+    .milestones-items{
+        display: flex;
+        justify-content: space-between;
+        .item{
+            .number{
+                font-size: 44px;
+                font-weight: 600;
+                color: #1c1c1c;
+                line-height: 36px;
+                padding-top: 33px;
+                position: relative;
+            }
+            .number::before{
+                content: "";
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 39px;
+                height: 2px;
+                background: #ff4200;
+            }
+            .text{
+                padding-top: 20px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: 0.2em;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

@@ -1,0 +1,146 @@
+.blog-page-section{
+    width: 70%;
+    margin: 60px auto 0;
+    .row{
+        display: flex;
+    .left-area{
+        width: 65%;
+        padding-right: 25px;
+        .item{
+            .img-area{
+            padding-bottom: 30px;
+            }
+            .date-area{
+                width: 129px;
+                height: 40px;
+                background: #ff4200; 
+                span{
+                    font-size: 11px;
+                    font-weight: 600;
+                    letter-spacing: 0.2em;
+                    color: #FFFFFF;
+                    padding: 12px 20px;
+                    display: inline-block;  
+                }
+            }
+        }
+        .text-area1{
+            color: #5b5b5b;
+            font-weight: 600;
+            letter-spacing: 0.2em;
+            padding-bottom: 20px;
+            padding-top: 30px;
+        }
+        .text-area2{
+            display: flex;
+            .author{
+                position: relative;
+                padding-right: 34px;
+                color: #9a9a9a;
+                font-size: 11px;
+                font-weight: 600;
+                letter-spacing: 0.2em;
+            }
+            .author::after{
+                display: block;
+                position: absolute;
+                top: 1px;
+                right: 16px;
+                width: 1px;
+                height: 11px;
+                content: '';
+                background: #9a9a9a;
+            }
+            .author, .sector, .comments{
+                position: relative;
+                padding-right: 34px;
+                color: #9a9a9a;
+                font-size: 11px;
+                font-weight: 600;
+                letter-spacing: 0.2em;
+            }
+            .author::after, .sector::after{
+                display: block;
+                position: absolute;
+                top: 1px;
+                right: 16px;
+                width: 1px;
+                height: 11px;
+                content: '';
+                background: #9a9a9a;
+            }   
+        }
+        .text-area3{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 80%;
+        }
+        }
+        .button{
+            padding-bottom: 20px;
+            a{
+                color: orangered;
+                padding-top: 30px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: 0.2em;
+            }
+        }
+        .right-area{
+            width: 35%;
+            .search-form{
+                input{
+                    width: 100%;
+                    height: 40px;
+                    font-size: 14px;
+                    border: solid 1px #b7b7b7;
+                    padding-left: 12px
+                }
+            }
+            .recent-posts{
+                padding-top: 30px;
+                .section-title{
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #1c1c1c;
+                    letter-spacing: 0.2em;
+                    text-transform: uppercase;
+                    padding-bottom: 11px;
+                    margin-bottom: 59px;
+                    position: relative;
+                }
+                .section-title::after{
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 43px;
+                    height: 2px;
+                    background: #ff4200;
+                    content: '';
+                }
+                .item{
+                    display: flex;
+                    padding-bottom: 15px;
+                    .img-area{
+                        padding-right: 20px;
+                    }
+                    .info-area{
+                        .position{
+                            font-weight: 600;
+                            color: #343434;
+                            letter-spacing: 0.075em;
+                        }
+                        .date{
+                            font-size: 11px;
+                            text-transform: uppercase;
+                            color: #9a9a9a;
+                            letter-spacing: 0.075em;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}

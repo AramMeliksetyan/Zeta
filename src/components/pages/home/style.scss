@@ -1,0 +1,31 @@
+.home-first-slideshow-section{
+    .item{
+        position: relative;
+        .img-area{
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        .text-area{
+            position: absolute;
+            left: 65px;
+            top: 30%;
+            width: 500px;
+            max-width: 100%;
+            .txt{
+                color: white;
+                font-size: 72px;
+                margin-bottom: 50px;
+            }   
+            .slideshow-btn{
+                border: 1px solid orangered;
+                letter-spacing: 6.7px;
+                font-family: 'Open Sans', sans-serif;
+                background: orangered;
+                padding: 25px 30px;
+
+            }     
+        }
+    }
+}
